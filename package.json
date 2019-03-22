@@ -1,0 +1,47 @@
+{
+	"name": "@cfware/callback-array-once",
+	"version": "1.0.0",
+	"description": "Run and clear an array of callbacks",
+	"main": "callback-array-once.js",
+	"scripts": {
+		"release": "standard-version --sign",
+		"test": "xo && nyc ava -v"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"files": [
+		"callback-array-once.js"
+	],
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/callback-array-once.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/callback-array-once/issues"
+	},
+	"homepage": "https://github.com/cfware/callback-array-once#readme",
+	"devDependencies": {
+		"@babel/plugin-transform-modules-commonjs": "^7.2.0",
+		"@babel/register": "^7.0.0",
+		"@istanbuljs/nyc-config-babel": "^2.0.1",
+		"ava": "^1.3.1",
+		"babel-plugin-istanbul": "^5.1.1",
+		"nyc": "^13.3.0",
+		"standard-version": "^5.0.2",
+		"xo": "^0.24.0"
+	},
+	"nyc": {
+		"all": true,
+		"check-coverage": true,
+		"per-file": true,
+		"lines": 100,
+		"statements": 100,
+		"functions": 100,
+		"branches": 100,
+		"extends": "@istanbuljs/nyc-config-babel"
+	}
+}
