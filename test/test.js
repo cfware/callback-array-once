@@ -6,7 +6,7 @@ test('exports a function', t => {
 	t.is(typeof runCallbacks, 'function');
 });
 
-test('first argument must have `.forEach` method', t => {
+test('first argument must be iterable', t => {
 	t.throws(() => runCallbacks());
 });
 
