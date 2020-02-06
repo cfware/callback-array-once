@@ -37,15 +37,6 @@ console.log(cbs.length);
  */
 ```
 
-## Running tests
-
-Tests are provided by xo and ava.
-
-```sh
-npm install
-npm test
-```
-
 [npm-image]: https://img.shields.io/npm/v/@cfware/callback-array-once.svg
 [npm-url]: https://npmjs.org/package/@cfware/callback-array-once
 [travis-image]: https://travis-ci.org/cfware/callback-array-once.svg?branch=master
