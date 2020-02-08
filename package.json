@@ -1,6 +1,6 @@
 {
 	"name": "@cfware/callback-array-once",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Run and clear an array of callbacks",
 	"main": "callback-array-once.js",
 	"type": "module",
