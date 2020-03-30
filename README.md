@@ -1,6 +1,6 @@
 # @cfware/callback-array-once
 
-[![Travis CI][travis-image]][travis-url]
+![Tests][tests-status]
 [![Greenkeeper badge][gk-image]](https://greenkeeper.io/)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -39,8 +39,7 @@ console.log(cbs.length);
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/callback-array-once.svg
 [npm-url]: https://npmjs.org/package/@cfware/callback-array-once
-[travis-image]: https://travis-ci.org/cfware/callback-array-once.svg?branch=master
-[travis-url]: https://travis-ci.org/cfware/callback-array-once
+[tests-status]: https://github.com/cfware/callback-array-once/workflows/Tests/badge.svg
 [gk-image]: https://badges.greenkeeper.io/cfware/callback-array-once.svg
 [downloads-image]: https://img.shields.io/npm/dm/@cfware/callback-array-once.svg
 [downloads-url]: https://npmjs.org/package/@cfware/callback-array-once
