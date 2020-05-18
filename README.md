@@ -1,18 +1,6 @@
-# @cfware/callback-array-once
-
-![Tests][tests-status]
-[![Greenkeeper badge][gk-image]](https://greenkeeper.io/)
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![MIT][license-image]](LICENSE)
+# @cfware/callback-array-once [![NPM Version][npm-image]][npm-url]
 
 Run and clear an array of callbacks.
-
-### Install @cfware/callback-array-once
-
-```sh
-npm i --save @cfware/callback-array-once
-```
 
 ## Usage
 
@@ -39,8 +27,3 @@ console.log(cbs.length);
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/callback-array-once.svg
 [npm-url]: https://npmjs.org/package/@cfware/callback-array-once
-[tests-status]: https://github.com/cfware/callback-array-once/workflows/Tests/badge.svg
-[gk-image]: https://badges.greenkeeper.io/cfware/callback-array-once.svg
-[downloads-image]: https://img.shields.io/npm/dm/@cfware/callback-array-once.svg
-[downloads-url]: https://npmjs.org/package/@cfware/callback-array-once
-[license-image]: https://img.shields.io/npm/l/@cfware/callback-array-once.svg
