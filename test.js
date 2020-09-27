@@ -1,6 +1,6 @@
 import t from 'libtap';
 
-import runCallbacks from './callback-array-once.js';
+import runCallbacks from '@cfware/callback-array-once';
 
 t.test('exports a function', async t => {
 	t.type(runCallbacks, 'function');
