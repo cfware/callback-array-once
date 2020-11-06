@@ -17,6 +17,7 @@ t.test('callback order', async t => {
 		first: false,
 		second: false
 	};
+	const after = () => {};
 	const cbs = [
 		() => {
 			t.same(track, {first: false, second: false});
@@ -28,12 +29,14 @@ t.test('callback order', async t => {
 		},
 		() => {
 			t.same(track, {first: true, second: true});
+			cbs.push(after);
 		}
 	];
 
 	runCallbacks(cbs);
 	t.same(track, {first: true, second: true});
-	t.equal(cbs.length, 0);
+	t.equal(cbs.length, 1);
+	t.equal(cbs[0], after);
 });
 
 t.test('arguments', async t => {

@@ -1,7 +1,5 @@
-export default function runCallbackArray(list, ...args) {
-	for (const fn of list) {
+export default (list, ...args) => {
+	for (const fn of list.splice(0)) {
 		fn(...args);
 	}
-
-	list.splice(0);
-}
+};
