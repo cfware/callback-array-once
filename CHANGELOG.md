@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.5](https://github.com/cfware/callback-array-once/compare/v1.0.4...v1.0.5) (2023-10-15)
+
+
+### Bug Fixes
+
+* Update development dependencies ([ff21fd3](https://github.com/cfware/callback-array-once/commit/ff21fd310461d89531444ab9993dca388ffde2a9))
+
 ### [1.0.4](https://github.com/cfware/callback-array-once/compare/v1.0.3...v1.0.4) (2020-11-06)
 
 
